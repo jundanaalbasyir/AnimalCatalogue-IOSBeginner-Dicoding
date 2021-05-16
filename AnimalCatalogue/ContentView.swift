@@ -9,7 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        AnimalView()
+        TabView {
+            AnimalView()
+                .tabItem {
+                    Image(systemName: "list.dash")
+                    Text("Animal")
+                }
+            Text("Profile")
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("Profile")
+                }
+        }
     }
 }
 
