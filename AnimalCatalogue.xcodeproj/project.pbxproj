@@ -11,6 +11,10 @@
 		08A79AFB264FDAC500DDC72A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A79AFA264FDAC500DDC72A /* ContentView.swift */; };
 		08A79AFD264FDAC700DDC72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A79AFC264FDAC700DDC72A /* Assets.xcassets */; };
 		08A79B00264FDAC700DDC72A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A79AFF264FDAC700DDC72A /* Preview Assets.xcassets */; };
+		08A79B0C264FE88B00DDC72A /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A79B0B264FE88B00DDC72A /* Animal.swift */; };
+		08A79B10264FE92F00DDC72A /* AnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A79B0F264FE92F00DDC72A /* AnimalView.swift */; };
+		08A79B13264FE93900DDC72A /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A79B12264FE93900DDC72A /* AnimalDetailView.swift */; };
+		08A79B1B265021F000DDC72A /* AnimalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A79B1A265021F000DDC72A /* AnimalViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		08A79AFC264FDAC700DDC72A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08A79AFF264FDAC700DDC72A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08A79B01264FDAC700DDC72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A79B0B264FE88B00DDC72A /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		08A79B0F264FE92F00DDC72A /* AnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalView.swift; sourceTree = "<group>"; };
+		08A79B12264FE93900DDC72A /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		08A79B1A265021F000DDC72A /* AnimalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,9 @@
 		08A79AF7264FDAC500DDC72A /* AnimalCatalogue */ = {
 			isa = PBXGroup;
 			children = (
+				08A79B0A264FE85600DDC72A /* View Model */,
+				08A79B09264FE85000DDC72A /* View */,
+				08A79B08264FE84B00DDC72A /* Model */,
 				08A79AF8264FDAC500DDC72A /* AnimalCatalogueApp.swift */,
 				08A79AFA264FDAC500DDC72A /* ContentView.swift */,
 				08A79AFC264FDAC700DDC72A /* Assets.xcassets */,
@@ -67,6 +78,31 @@
 				08A79AFF264FDAC700DDC72A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08A79B08264FE84B00DDC72A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08A79B0B264FE88B00DDC72A /* Animal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08A79B09264FE85000DDC72A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08A79B0F264FE92F00DDC72A /* AnimalView.swift */,
+				08A79B12264FE93900DDC72A /* AnimalDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08A79B0A264FE85600DDC72A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				08A79B1A265021F000DDC72A /* AnimalViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A79B10264FE92F00DDC72A /* AnimalView.swift in Sources */,
 				08A79AFB264FDAC500DDC72A /* ContentView.swift in Sources */,
+				08A79B1B265021F000DDC72A /* AnimalViewModel.swift in Sources */,
 				08A79AF9264FDAC500DDC72A /* AnimalCatalogueApp.swift in Sources */,
+				08A79B0C264FE88B00DDC72A /* Animal.swift in Sources */,
+				08A79B13264FE93900DDC72A /* AnimalDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
