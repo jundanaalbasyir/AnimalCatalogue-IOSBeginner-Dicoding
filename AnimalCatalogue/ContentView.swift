@@ -15,7 +15,7 @@ struct ContentView: View {
                     Image(systemName: "list.dash")
                     Text("Animal")
                 }
-            Text("Profile")
+            ProfileView()
                 .tabItem {
                     Image(systemName: "person")
                     Text("Profile")
